@@ -9,5 +9,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-course';
+  title = 'angular-course 2';
+  onClickLogo(){
+    alert('Hello world');
+  }
 }
